@@ -1,0 +1,626 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+body{
+    font-size: .8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.row1{
+    padding:30px;
+    background-color: gainsboro;
+}
+.searchbar1{
+    margin: auto;
+    border-radius: 50px;
+    border: none;
+    padding-left: 15px;
+    /* margin-top: 1rem; */
+}
+.search-icon{
+    transform: translateX(-2rem);
+    color: green;
+}
+.cart-details{
+    float: right;
+    padding: 5px 1.6rem;
+    border-radius: 50px;
+    border: none;
+}
+.cart{
+    color: green;
+}
+.pic{
+    text-align: center !important;
+}
+.logo{
+   padding-left: 25rem;
+   margin-bottom: -6.2rem !important;
+   display: inline-block;
+}
+.nav1{
+    color: black !important;
+    display: inline-block; 
+}
+.navbar-nav>li{
+    padding-left: 2.3rem;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center;
+}
+.nav-link{
+    color: black;  
+    text-transform: uppercase;
+    margin-top: 4rem;
+    padding: 1rem 1.5rem;
+}
+.navbar-nav>li :hover{
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+}
+.backfruitimg1{
+    background-image: url('../images/slide2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.backfruitimg2{
+    background-image: url('../images/slide1.jpg');
+}
+.fresh{
+    padding-top: 6rem;
+    padding-bottom: 0 !important;
+    font-size: 1.3rem;
+}
+.big-sale{
+    font-size: 5.6rem;
+    color: rgba(248, 248, 23, 0.925);
+    font-weight: bold;
+    font-style: italic;
+}
+.shop-now{
+    padding: .6rem 1.4rem;
+    border: rgba(248, 248, 23, 0.925) 7px solid;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 8rem !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-image: none;
+  color: red;
+  font-size: 20px;
+}
+.rowr >.col-lg-3,
+.col-xl-3{
+    padding-left: 2px !important;
+}
+/* .rowr >.col-sm-12{
+    padding-left:7rem !important;
+    padding-bottom: 5px !important;
+} */
+
+.row4{
+    padding: 3rem 2rem 2rem 6rem;
+    margin:0 auto;
+    display: inline-block;
+}
+.icon-bus{
+    color: green;
+    font-size: 1.4rem;
+    padding: 1rem !important;
+    border: dotted 2px rgb(129, 136, 129);
+    border-radius: 50%;
+    float: left!important ;
+    margin:0px auto !important;
+    display: inline-block !important;
+
+}
+.icon-description{
+    float: left;
+    padding: .9rem !important;
+    color: gray;
+    display: inline-block;
+}
+.row5{
+    background-image: url(../images/ad1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    font-weight: bold;
+    /* margin: 1.7rem; */
+}
+.orange-fruit{
+    padding-top: 10.5rem;
+}
+.btn-shop{
+    border: rgba(248, 248, 23, 0.925) 7px solid;
+    border-radius: 50px; 
+    background-color: green;
+    padding: .5rem 1.2rem;
+    color: white;
+    margin-bottom: 10.5rem !important;
+}
+.row6{
+    /* margin: 1.6rem 0; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 !important; */
+}
+.item1{
+    background-image: url(../images/ad2.jpg);
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column; */
+    margin-bottom: 2rem;
+
+}
+.item2{
+    background-image: url(../images/ad3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.row7{
+    background-image: url(../images/ad4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    font-weight: bold;
+    /* margin: 1.6rem; */
+}
+.btn-shop2{
+    border: white 7px solid;
+    border-radius: 50px; 
+    background-color: transparent;
+    padding: .5rem 1.2rem;
+    color: white;
+    margin-bottom: 10.5rem !important;
+}
+.item-title{
+    margin-top: 8.5rem;
+}
+.row-latest{
+    border: 1px solid gray;
+}
+.row8,
+.row9{
+    display: block;
+}
+.row8{
+    padding-left:1rem;
+}
+.latest-btn{
+    border:none;
+    margin-bottom: 0 !important;
+}
+.latest-des{
+    font-size: .9rem;
+}
+.footer{
+    background-color: rgb(48, 45, 45);
+    color: rgb(153, 147, 147);
+    padding-top: 4rem;
+}
+.about-des{
+    font-size: .9rem;
+}
+.follow{
+    padding-top: 6rem;
+    float: left;
+    
+}
+.social-icons{
+    float: left;
+    padding-top: 5.9rem;
+    /* font-size: 2.1rem; */
+    width: 35px;
+    padding-left: .5rem;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+ .fb{
+    background-color: white;
+    /* background-color:  #3b5998; */
+}
+.twitter{
+    color: rgb(53,155,237);
+    background-color:white;  
+     
+}
+.insta{
+    /* background-color:  white; */
+  color: #ca1a4f;
+}
+.gmail{
+    background-color: white;
+    color: rgb(214, 66, 21)
+}
+.list >ul {
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+
+.list > ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.4em;
+
+  }
+  .home-icon{
+      color: green;
+      float: left;
+      font-size: 1.2rem;
+  }
+  .payment{
+      float: left;
+  }
+  .paypal{
+      float: left;
+      font-size: 1.7rem;
+      color: rgb(235, 157, 157);
+  }
+  .rowend{
+      align:center;
+  }
+
+  /* media */
+  /* logo */
+  @media (max-width:1226px){
+        .logo{
+            padding-left: 20rem;
+        }
+        .navbar-nav>li{
+            padding-left: 1.5rem;
+            
+        }
+  }
+  @media (max-width:1165px){
+        .nav-link{
+            margin-top: 0;
+            
+        }
+        .icon-bus{ 
+        float: none;
+        }
+        .icon-description{
+        float: left;
+        padding: .5rem !important;  
+        }
+ }
+ @media (max-width:1152px){
+    .social-icons{
+        width: 32px;
+    }
+ }
+ @media (max-width:1100px){
+    .logo{
+        padding-left: 16rem;
+        /* padding-bottom: 2rem; */
+    }
+    .icon-description{
+        float: left;
+        padding: .1rem !important;  
+        }
+ }
+ @media (max-width:1058px){
+    .icon-bus{ 
+        float: none;
+        }
+    .icon-description{
+        float: none;
+        margin-right: 2.4rem !important;  
+        }
+ }
+ @media (max-width:1015px){
+    .social-icons{
+        width: 30px;
+    }
+ }
+ @media (max-width:982px){
+    .logo{
+        padding-left: 13rem;
+    }
+    .follow{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .social-icons{
+        padding-top: 1.5rem;
+    }
+    .row12{
+        margin-left: 6rem;
+    }
+    .payment{
+        margin-left: 6rem;
+    }
+ }
+ @media (max-width:910px){
+    .logo{
+        padding-left: 10rem;
+    }
+ }
+ @media (max-width:800px){
+    .payment{
+        margin-left: 5rem;
+    }
+ }
+ @media (max-width:822px){
+    .logo{
+        padding-left: 8rem;
+     
+    }
+ }
+ @media (max-width:767px){
+    .logo{
+        padding-left: 6rem;
+    }
+    .row4{
+        padding: 1.5rem;
+        margin-left:16rem;       
+    }
+    .row5, .row6 , .row7{
+            height: 84vh !important;
+    }
+    .item1, .item2{
+        height: 39vh;
+    }
+    .item-title{
+        margin-top: 2rem !important;
+    }
+    .orange-fruit{
+        padding-top: 6rem;
+    }
+    .btn-shop{
+        padding: .3rem .7rem;
+    }
+    .btn-shop2{ 
+        padding: .3rem .7rem;
+    }
+    .item-title{
+        margin-top: 5.5rem;
+    }
+  
+ }
+ @media (max-width:800px){
+    .payment{
+        margin-left: 4rem;
+    }
+ }
+ @media (max-width:722px){
+    .logo{
+        padding-left: 4rem;
+    }
+ }
+ @media (max-width:700px){
+    .logo{
+        padding-left: 3rem;
+    }
+    .row4{
+        padding: 1.5rem;
+        margin-left:14rem;       
+    }
+    .payment{
+        margin-left: 2.5rem;
+    }
+ }
+ @media (max-width:618px){
+    .logo{
+        padding-left: 2rem;
+    }
+    .row4{
+        padding: 1.5rem;
+        margin-left:12rem;       
+    }
+    .payment{
+        margin-left: 2rem;
+    }
+}
+@media (max-width:583px){
+    .logo{
+        padding-left: 0;
+    }
+}
+@media (max-width:575px){
+    .row4{
+        padding: 1.5rem;
+        margin-left:10rem;       
+    }
+    .row5, .row6 , .row7{
+        height: 84vh !important;
+        width: 70vh !important;
+        margin: 1rem 1rem 1rem 4.5rem !important;
+    }
+    .item1, .item2{
+        /* clear: both !important; */
+        height: 39vh;
+        width: 109%;
+        padding: 0 15px;
+        margin: -10px 14px 0 -13px;
+    
+        }
+        .row7{
+            margin-top: 0 !important;
+        }
+        .item1{
+            margin-bottom: 35px  !important;
+        }
+        .foot-links{
+            margin-left: 7.5rem;
+        }
+        .follow{
+            padding-left: 3rem ;
+        }
+        .list{
+            padding-left: 11rem;
+        }
+        .row12{
+            margin-left: 2rem;
+        }
+        .payment{
+                margin-left: 3.5rem;
+        }   
+}
+@media (max-width:540px){
+        .foot-links{
+            margin-left: 6rem;
+        }
+        .follow{
+            padding-left: 3rem ;
+        }
+        .payment{
+                margin-left: 3rem;
+        }
+}
+@media (max-width:512px){
+    .logo{
+      margin-left: -20px !important;
+    }
+    .row5, .row6 , .row7{
+    height: 84vh !important;
+    width: 70vh !important;
+    margin: 1rem 1rem 1rem 4.5rem !important;
+}
+.item1, .item2{
+    /* clear: both !important; */
+    height: 39vh;
+    width: 109%;
+    padding: 0 15px;
+    margin: -10px 14px 0 -13px;
+
+    }
+    .row7{
+        margin-top: 0 !important;
+    }
+    .item1{
+        margin-bottom: 35px  !important;
+    }
+}
+@media (max-width:497px){
+    .logo{
+        margin-right: 25px !important;
+      }
+      .big-sale{
+        font-size: 4.5rem;
+      }
+      .foot-links{
+        margin-left: 4rem;
+    }
+    .follow{
+        padding-left: 3rem ;
+    }
+    .payment{
+            margin-left: 2rem;
+    }
+    .list{
+        padding-left: 9rem;
+    }
+}
+@media (max-width:494px){
+    .logo{
+        margin-left: -15px !important;
+      }
+}
+@media (max-width:450px){
+      .foot-links{
+        margin-left: 2.5rem;
+    }
+    .follow{
+        padding-left: 2rem ;
+    }
+    .payment{
+            margin-left: 1rem;
+    }
+    .list{
+        padding-left: 7rem;
+    }
+}
+.H-2{
+    
+
+        font-size:150PX;
+        color: yellow;
+}
+ 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-3 {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ 
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgba(172, 255, 47, 0.61);
+    color: white;
+    transform: rotateY(180deg);
+  }
